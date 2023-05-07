@@ -10,6 +10,7 @@ Midas Manager is a system manager designed for people new to Windows, or who don
 - Access popular windows settings in one menu and change them
 - Remove temporary files with one click of a button to free system storage
 - Download popular/suggested software that makes Windows easier to use
+- Check for Windows updates with one click of a button
 
 ## ❓ Why was Midas Manager Created ❓
 
