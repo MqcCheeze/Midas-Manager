@@ -31,7 +31,7 @@
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnApps = new System.Windows.Forms.Button();
             this.btnStorage = new System.Windows.Forms.Button();
-            this.btnUpdates = new System.Windows.Forms.Button();
+            this.btnWindowsSettings = new System.Windows.Forms.Button();
             this.btnMainMenu = new System.Windows.Forms.Button();
             this.pnlView = new System.Windows.Forms.Panel();
             this.pnlTop.SuspendLayout();
@@ -75,7 +75,7 @@
             this.pnlSidebar.Controls.Add(this.btnSettings);
             this.pnlSidebar.Controls.Add(this.btnApps);
             this.pnlSidebar.Controls.Add(this.btnStorage);
-            this.pnlSidebar.Controls.Add(this.btnUpdates);
+            this.pnlSidebar.Controls.Add(this.btnWindowsSettings);
             this.pnlSidebar.Controls.Add(this.btnMainMenu);
             this.pnlSidebar.Location = new System.Drawing.Point(0, 100);
             this.pnlSidebar.Name = "pnlSidebar";
@@ -130,21 +130,21 @@
             this.btnStorage.UseVisualStyleBackColor = false;
             this.btnStorage.Click += new System.EventHandler(this.btnStorage_Click);
             // 
-            // btnUpdates
+            // btnWindowsSettings
             // 
-            this.btnUpdates.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(192)))), ((int)(((byte)(170)))));
-            this.btnUpdates.FlatAppearance.BorderSize = 0;
-            this.btnUpdates.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdates.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdates.ForeColor = System.Drawing.Color.White;
-            this.btnUpdates.Location = new System.Drawing.Point(0, 91);
-            this.btnUpdates.Name = "btnUpdates";
-            this.btnUpdates.Size = new System.Drawing.Size(160, 85);
-            this.btnUpdates.TabIndex = 1;
-            this.btnUpdates.Text = "Updates";
-            this.btnUpdates.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnUpdates.UseVisualStyleBackColor = false;
-            this.btnUpdates.Click += new System.EventHandler(this.btnUpdates_Click);
+            this.btnWindowsSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(192)))), ((int)(((byte)(170)))));
+            this.btnWindowsSettings.FlatAppearance.BorderSize = 0;
+            this.btnWindowsSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWindowsSettings.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnWindowsSettings.ForeColor = System.Drawing.Color.White;
+            this.btnWindowsSettings.Location = new System.Drawing.Point(0, 91);
+            this.btnWindowsSettings.Name = "btnWindowsSettings";
+            this.btnWindowsSettings.Size = new System.Drawing.Size(160, 85);
+            this.btnWindowsSettings.TabIndex = 1;
+            this.btnWindowsSettings.Text = "Windows Settings";
+            this.btnWindowsSettings.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnWindowsSettings.UseVisualStyleBackColor = false;
+            this.btnWindowsSettings.Click += new System.EventHandler(this.btnWindowsSettings_Click);
             // 
             // btnMainMenu
             // 
@@ -201,7 +201,7 @@
         private Panel pnlSidebar;
         private Label lblTitle;
         private Button btnMainMenu;
-        private Button btnUpdates;
+        private Button btnWindowsSettings;
         private Button btnSettings;
         private Button btnApps;
         private Button btnStorage;

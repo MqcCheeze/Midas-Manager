@@ -37,5 +37,53 @@ namespace Midas_Manager {
 
             ProgramWideFunctions.CommandPrompt("start torbrowser.exe");
         }
+
+        private void btnSevenZip_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install 7zip.7zip");
+
+            ProgramWideFunctions.CommandPrompt("start 7zip.exe");
+        }
+
+        private void btnWinrar_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install rarlab.winrar");
+
+            ProgramWideFunctions.CommandPrompt("start winrar.exe");
+        }
+
+        private void btnFDM_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install softdeluxe.freedownloadmanager");
+
+            ProgramWideFunctions.CommandPrompt("start fdm.exe");
+        }
+
+        private void btnUTorrent_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install utorrent");
+        }
+
+        private void btnAudacity_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install audacity.audacity");
+
+            ProgramWideFunctions.CommandPrompt("start audacity.exe");
+        }
+
+        private void btnDiscord_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install discord.discord");
+        }
+
+        private void btnSlack_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install slacktechnologies.slack");
+
+            ProgramWideFunctions.CommandPrompt("start slack.exe");
+        }
+
+        private void btnTeams_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install microsoft.teams");
+        }
+
+        private void btnWhatsapp_Click(object sender, EventArgs e) {
+            ProgramWideFunctions.CommandPrompt("winget install 9NKSQGP7F2NH");
+
+            ProgramWideFunctions.CommandPrompt("start whatsapp.exe");
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace Midas_Manager {
     public partial class MainMenu : Form {
 
         Main main = new Main();
-        Updates updates = new Updates();
+        WindowsSettings windowsSettings = new WindowsSettings();
         Storage storage = new Storage();
         Apps apps = new Apps();
         Settings settings = new Settings();
@@ -50,7 +50,7 @@ namespace Midas_Manager {
 
         private void UnselectAllButtons() {
             btnMainMenu.BackColor = colourUnselected;
-            btnUpdates.BackColor = colourUnselected;
+            btnWindowsSettings.BackColor = colourUnselected;
             btnStorage.BackColor = colourUnselected;
             btnApps.BackColor = colourUnselected;
             btnSettings.BackColor = colourUnselected;
@@ -62,10 +62,10 @@ namespace Midas_Manager {
             LoadMenu(main, buttonClicked);
         }
 
-        private void btnUpdates_Click(object sender, EventArgs e) {
+        private void btnWindowsSettings_Click(object sender, EventArgs e) {
             pnlView.Controls.Remove(previousForm);
-            Button buttonClicked = btnUpdates;
-            LoadMenu(updates, buttonClicked);
+            Button buttonClicked = btnWindowsSettings;
+            LoadMenu(windowsSettings, buttonClicked);
         }
 
         private void btnStorage_Click(object sender, EventArgs e) {

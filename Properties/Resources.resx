@@ -118,8 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Icon x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\Icon x1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="400x60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Textures\Buttons\400x60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\Icon x512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="120x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Textures\Buttons\120x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\Icon x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="400x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Textures\Buttons\400x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\Icon x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,10 +142,10 @@
   <data name="Icon x256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icons\Icon x256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\Icon x512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="190x60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Textures\Buttons\190x60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Icons\Icon x1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="210x60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Textures\Buttons\210x60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
